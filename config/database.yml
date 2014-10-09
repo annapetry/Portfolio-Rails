@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+  username: annapetry
+
+development:
+  <<: *default
+  database: db/development
+
+production:
+  <<: *default
+  database: db/production
