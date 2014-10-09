@@ -11,11 +11,22 @@
   <link
     rel="shortcut icon"
     type="image/ico"
-    href="images/favicon.png" />
+    href="../assets/favicon.png" />
   <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 </head>
 <body>
 
+
+<% unless flash[:error].nil? %>
+ <div id="error">
+   <p><%= flash[:error]%></p>
+ </div>
+<% end %>
+<% unless flash[:notice].nil? %>
+  <div id="success">
+   <p><%= flash[:notice]%></p>
+ </div>
+<% end %>
 
 <%= yield %>
 

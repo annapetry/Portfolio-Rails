@@ -3,11 +3,11 @@ class ContactFormsController < ApplicationController
     @contact_form = ContactForm.new(params[:contact_form])
     @contact_form.request = request
     if @contact_form.deliver
-      flash.now[:notice] = 'Thank you for your message!'
+      flash[:notice] = "Thank you for your message - I'll be in touch soon!"
       redirect_to root_url
     else
-      flash.now[:error] = 'Cannot send message.'
-      redirect_to root_url
+      flash[:error] = 'Oh no - something went wrong! Try again!'
+      redirect_to '/#contact'
     end
   end
 end
