@@ -10,3 +10,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'mail_form'
 gem 'newrelic_rpm'
+
+group :development do
+  gem 'annotate'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'pry-rails'
+  gem 'debugger'
+  gem 'spring'
+end
