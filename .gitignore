@@ -17,3 +17,5 @@
 
 #Ignore smpt details
 /config/initializers/smpt_parameters.rb
+# Ignore application configuration
+/config/application.yml

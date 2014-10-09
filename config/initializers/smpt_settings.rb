@@ -4,6 +4,6 @@ ActionMailer::Base.smtp_settings = {
     :port           => 587,
     :domain         => 'petryportfolio.herokuapp.com',
     :authentication => :plain,
-    :user_name      => 'hello@annapetry.com',
-    :password       => 'firecracker0207'
+    :user_name      => ENV['GMAIL_USERNAME'],
+    :password       => ENV['GMAIL_PASSWORD']
   }
