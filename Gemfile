@@ -12,6 +12,7 @@ gem 'mail_form'
 gem 'newrelic_rpm'
 gem 'figaro'
 gem 'thin'
+gem 'airbrake'
 
 group :development do
   gem 'annotate'
