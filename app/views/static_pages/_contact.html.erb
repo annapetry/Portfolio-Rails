@@ -1,0 +1,45 @@
+<header>
+  <h2>Contact Me</h2>
+</header>
+<form action="<%= contact_forms_url %>" method="post">
+  <input
+    type='hidden'
+    name='authenticity_token'
+    value='form_authenticity_token'>
+  <div>
+    <div class="row">
+      <div class="6u">
+        <input
+          type="text"
+          name="contact_form[name]"
+          placeholder="Name" />
+      </div>
+      <div class="6u">
+        <input
+        type="text"
+        name="contact_form[email]"
+        placeholder="Email" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="12u">
+        <input
+          type="text"
+          name="contact_form[subject]"
+          placeholder="Subject" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="12u">
+        <textarea
+          name="contact_form[message]"
+          placeholder="Message" rows="8"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="12u">
+        <input type="submit" value="Send Message" />
+      </div>
+    </div>
+  </div>
+</form>

@@ -7,21 +7,30 @@
 .description-div {
   float: left;
   width: 64%;
+  margin-top: 20px;
 }
 .description-div h3 {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: inline-block;
   padding-right: 10%;
 }
 .description,
 .description-div ul li {
-  font-size: 0.8em;
-  margin-bottom: 5px;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+  line-height: normal;
+}
+li span {
+  font-weight: 400;
 }
 .description-div a {
   text-decoration: none;
   color: #956479;
+}
+p.description {
+  margin-bottom: 15px;
+  font-weight: 400;
 }
 #second {
   float: right;
@@ -39,19 +48,19 @@ div#wrapper {
 #error,
 #success {
   width: 100%;
-  height: 75px;
+  height: 55px;
 }
 #error p,
 #success p {
   text-align: center;
   margin-bottom: 0;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 #error,
 #success {
   background: #956479;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 /*********************************************************************************/
