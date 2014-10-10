@@ -11,6 +11,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'mail_form'
 gem 'newrelic_rpm'
 gem 'figaro'
+gem 'thin'
 
 group :development do
   gem 'annotate'
