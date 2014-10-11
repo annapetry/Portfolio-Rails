@@ -24,9 +24,15 @@
 li span {
   font-weight: 400;
 }
-.description-div a {
+.description-div a,
+#resume > a {
   text-decoration: none;
   color: #956479;
+}
+p#resume {
+  font-weight: 400;
+  margin-top: 1.2%;
+  margin-bottom: 0;
 }
 p.description {
   margin-bottom: 15px;
@@ -65,7 +71,30 @@ div#wrapper {
 #chApp {
   margin-top: 23px;
 }
-
+.footer-icons i:before {
+  font-size: 3em;
+  vertical-align: -25%;
+}
+p.about {
+  font-weight: 300;
+  font-size: 0.9;
+  line-height: 25px;
+/*  margin-top: -15px;*/
+}
+#about {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.about span {
+  font-weight: 400;
+}
+p#email {
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+nav#nav {
+  margin-top: 60px;
+}
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/

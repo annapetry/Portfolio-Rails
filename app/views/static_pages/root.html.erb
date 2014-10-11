@@ -12,6 +12,10 @@
         <i class="fa fa-code"></i>
         <span>Projects</span>
       </a>
+      <a href="#about" class="icon fa-heart-o">
+        <i class="fa fa-heart-o"></i>
+        <span>About</span>
+      </a>
       <a href="#contact" class="icon fa-envelope">
         <i class="fa fa-envelope"></i>
         <span>Contact</span>
@@ -31,6 +35,11 @@
           <%= render partial: "work" %>
         </article>
 
+      <!-- About -->
+        <article id="about" class="panel">
+           <%= render partial: "about" %>
+        </article>
+
       <!-- Contact -->
         <article id="contact" class="panel">
            <%= render partial: "contact" %>
@@ -41,7 +50,22 @@
   <!-- Footer -->
     <div id="footer">
       <ul class="copyright">
-        <li>&copy; Anna Petry.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        <li class="footer-icons">
+          <a href="https://www.linkedin.com/in/annapetry">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+        </li>
+        <li>&copy; Anna Petry.</li>
+        <li>Design:
+          <a href="http://html5up.net">
+            HTML5 UP
+          </a>
+        </li>
+        <li class="footer-icons">
+          <a href="http://github.com/annapetry">
+            <i class="fa fa-github-square"></i>
+          </a>
+        </li>
       </ul>
     </div>
 
