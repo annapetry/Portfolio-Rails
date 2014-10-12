@@ -13,5 +13,6 @@
 //= require jquery.min
 //= require jquery_ujs
 //= require skel.min
+//= require bootstrap.min
 //= require init.js
 //= require_tree .

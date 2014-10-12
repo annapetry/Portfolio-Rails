@@ -6,7 +6,7 @@ class ContactFormsController < ApplicationController
       flash[:notice] = "Thank you for your message - I'll be in touch soon!"
       redirect_to root_url
     else
-      flash[:error] = 'Oh no - something went wrong! Try again!'
+      flash[:notice] = 'Oh no - something went wrong! Try again!'
       redirect_to '/#contact'
     end
   end

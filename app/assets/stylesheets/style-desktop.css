@@ -67,6 +67,17 @@ div#wrapper {
   background: #956479;
   color: #fff;
   font-size: 1em;
+  text-align: center;
+  padding-right: 0;
+  padding-top: 8px;
+}
+#alert-text {
+  margin-left: 60px;
+}
+#close {
+  padding-right: 55px;
+  display: inline-block;
+  padding-top: 8px;
 }
 #chApp {
   margin-top: 23px;
@@ -95,6 +106,7 @@ p#email {
 nav#nav {
   margin-top: 60px;
 }
+
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
