@@ -31,13 +31,11 @@
       </p>
       <ul>
         <li>
-          ▹ Creates & updates two models simultaneously
-          using nested attributes & wrapped parameters.
+          ▹ Simultaneously creates & updates User model and polymorphic Image
+          model using nested attributes & wrapped parameters.
         </li>
         <li>
-          ▹ Reduces number of n + 1 queries by using <span>:includes</span>,
-          which loads model associations using the minimum
-          number of queries.
+          ▹ Hunted down n+1 queries on the index view to make navigation snappy
         </li>
         <li>
           ▹ Consumes a RESTful Rails API which also includes
@@ -78,8 +76,8 @@
           lists & cards, which persist to the DB.
         </li>
         <li>
-          ▹ Extends Backbone’s View to support composite views,
-          allowing for nested subviews & effective rendering.
+          ▹ Extends Backbone’s View to support efficient rendering of
+          composite views, allowing cards to be rendered within lists.
         </li>
         <li>
           ▹ Consumes a RESTful Rails API.
