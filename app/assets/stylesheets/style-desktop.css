@@ -107,6 +107,13 @@ p#email {
 nav#nav {
   margin-top: 60px;
 }
+.no-shadow img {
+  box-shadow: none;
+  border: none;
+}
+.no-shadow {
+  border: none;
+}
 
 /*********************************************************************************/
 /* Basic                                                                         */
