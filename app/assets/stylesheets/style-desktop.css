@@ -51,11 +51,6 @@ p.description {
 div#wrapper {
   padding-top: 0;
 }
-#error,
-#success {
-  width: 100%;
-  height: 55px;
-}
 #error p,
 #success p {
   text-align: center;
@@ -64,15 +59,21 @@ div#wrapper {
 }
 #error,
 #success {
+  width: 100%;
+  height: 55px;
   background: #956479;
   color: #fff;
   font-size: 1em;
   text-align: center;
   padding-right: 0;
   padding-top: 8px;
+  border-radius: 0;
 }
 #alert-text {
   margin-left: 60px;
+}
+.alert {
+  border: none;
 }
 #close {
   padding-right: 55px;

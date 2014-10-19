@@ -12,6 +12,8 @@
  *
  *= require bootstrap-theme
  *= require bootstrap
+ *= require style-mobile
+ *= require style-desktop
  *= require_tree .
  *= require_self
  */

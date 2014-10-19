@@ -3,24 +3,7 @@
 <div id="wrapper" style="padding-top: 0;">
 
   <!-- Nav -->
-    <nav id="nav">
-      <a href="#me" class="active">
-        <i class="fa fa-home"></i>
-        <span>Home</span>
-      </a>
-      <a href="#work">
-        <i class="fa fa-code"></i>
-        <span>Projects</span>
-      </a>
-      <a href="#about" class="icon fa-heart-o">
-        <i class="fa fa-heart-o"></i>
-        <span>About</span>
-      </a>
-      <a href="#contact" class="icon fa-envelope">
-        <i class="fa fa-envelope"></i>
-        <span>Contact</span>
-      </a>
-    </nav>
+    <%= render partial: "nav" %>
 
   <!-- Main -->
     <div id="main">
@@ -48,32 +31,5 @@
     </div>
 
   <!-- Footer -->
-    <div id="footer">
-      <ul class="copyright">
-        <li class="footer-icons">
-          <a
-            href="https://www.linkedin.com/in/annapetry"
-            target="_blank">
-            <i class="fa fa-linkedin-square"></i>
-          </a>
-        </li>
-        <li>&copy; Anna Petry.</li>
-        <li>Design:
-          <a
-            href="http://html5up.net"
-            target="_blank">
-            HTML5 UP
-          </a>
-        </li>
-        <li class="footer-icons">
-          <a
-            href="http://github.com/annapetry"
-            target="_blank"
-            >
-            <i class="fa fa-github-square"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-
+    <%= render partial: "footer" %>
 </div>
