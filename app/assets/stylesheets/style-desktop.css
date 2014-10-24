@@ -4,6 +4,13 @@
   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.alt-description {
+  text-align: right;
+  float: right;
+}
+.alt-description h3 {
+  padding-right: 50px;
+}
 .description-div {
   float: left;
   width: 64%;
@@ -38,15 +45,8 @@ p.description {
   margin-bottom: 15px;
   font-weight: 400;
 }
-#second {
+.alt {
   float: right;
-}
-#second-description {
-  text-align: right;
-  float: right;
-}
-#second-description h3 {
-  padding-right: 50px;
 }
 div#wrapper {
   padding-top: 0;
@@ -82,6 +82,9 @@ div#wrapper {
 }
 #chApp {
   margin-top: 30px;
+}
+#htbg {
+  margin-top: 50px;
 }
 .footer-icons i:before {
   font-size: 3em;
