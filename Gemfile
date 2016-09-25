@@ -11,7 +11,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'mail_form'
 gem 'newrelic_rpm'
 gem 'figaro'
-gem 'thin'
 gem 'airbrake'
 
 group :development do
@@ -19,6 +18,5 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'pry-rails'
-  gem 'debugger'
   gem 'spring'
 end
